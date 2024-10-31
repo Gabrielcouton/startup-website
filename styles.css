@@ -1,4 +1,4 @@
-/* Style de base */
+
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     line-height: 1.6;
 }
 
-/* Bannière */
+
 .banner {
     background-image: url('https://www.barbichette.fr/wp-content/uploads/2016/08/coach-sportifFB.jpg'); /* Image de fond de la bannière */
     background-size: cover;
@@ -25,7 +25,7 @@ body {
 .banner-content {
     max-width: 600px;
     margin: 0 auto;
-    background: rgba(0, 51, 102, 0.8); /* Fond bleu foncé transparent */
+    background: rgba(0, 51, 102, 0.8); 
     padding: 30px;
     border-radius: 8px;
 }
@@ -33,7 +33,7 @@ body {
 .banner h1 {
     font-size: 36px;
     margin-bottom: 20px;
-    color: #66c2ff; /* Couleur de titre en bleu clair */
+    color: #66c2ff; 
 }
 
 .btn-banner {
@@ -52,14 +52,14 @@ body {
     background-color: #006699;
 }
 
-/* Contenu */
+
 .content {
     max-width: 800px;
     margin: 50px auto;
     padding: 20px;
 }
 
-/* Style des sections principales */
+
 .component {
     margin-bottom: 40px;
 }
@@ -75,7 +75,7 @@ body {
     color: #555;
 }
 
-/* Avatar des coachs */
+
 .avatar {
     width: 100px;
     height: 100px;
@@ -89,7 +89,7 @@ body {
     transform: scale(1.1);
 }
 
-/* Bouton principal */
+
 .btn-primary {
     padding: 10px 20px;
     background-color: #0099cc;
@@ -106,7 +106,7 @@ body {
     background-color: #006699;
 }
 
-/* Cartes de coachs */
+
 .cards {
     display: flex;
     flex-wrap: wrap;
@@ -162,7 +162,7 @@ body {
     background-color: #0099cc;
 }
 
-/* Section Typeform */
+
 .typeform-section {
     margin-top: 50px;
     padding: 40px 20px;
@@ -178,4 +178,6 @@ body {
     color: #f8f8ff;
     margin-bottom: 20px;
 }
+
+
 
